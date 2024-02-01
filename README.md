@@ -14,14 +14,14 @@ Configures tags for identifying the database instance.
 Manages the creation of security groups to control inbound and outbound traffic for EC2 instances and RDS instances.
 Accepts input parameters for defining ingress and egress rules.
 
-#4. VPC Module:
+# 4. VPC Module:
 Manages the creation of a Virtual Private Cloud (VPC) for networking isolation.
 Configures subnets, route tables, internet gateway, and NAT gateway.
 
 # we can define so many services in Terraform modules and use as Independently
 
 # Benefits
-# Modularity: Terraform modules promote code reusability and maintainability by encapsulating infrastructure components into reusable units.
-# Scalability: Easily scale the application by adjusting the number of instances or upgrading instance types in the module inputs.
-# Consistency: Use standardized modules to ensure consistency in infrastructure deployments across environments.
-# Automation: Automate the provisioning and management of infrastructure using Terraform and modules, reducing manual intervention.
+ Modularity: Terraform modules promote code reusability and maintainability by encapsulating infrastructure components into reusable units.
+ Scalability: Easily scale the application by adjusting the number of instances or upgrading instance types in the module inputs.
+ Consistency: Use standardized modules to ensure consistency in infrastructure deployments across environments.
+ Automation: Automate the provisioning and management of infrastructure using Terraform and modules, reducing manual intervention.
