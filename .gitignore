@@ -1,9 +1,21 @@
+
 # Local .terraform directories
 **/.terraform/*
 
 # .tfstate files
-*.tfstate
 *.tfstate.*
+*.tfstate
+*tfplan*
+*.tfstate.backup
+*.tfstate.backup.*
+*.tfstate.lock.info
+*.terraform.lock.hcl
+*terraform.tfstate*
+*terraform.tfstate.backup*
+
+# fir gcp credentials
+*my-terraform-project*
+*.json
 
 # Crash log files
 crash.log
@@ -32,3 +44,16 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+.terraform
+*.env
+*.envrc
+
+# Ignore .terraform.d/plugins directory
+# Add this line if using Terraform 0.13+ with auto-installed plugins
+.terraform.d/plugins/
+
+# .idea directory (for JetBrains IDEs)
+.idea/
+
+# .vscode directory (for Visual Studio Code)
+.vscode/
